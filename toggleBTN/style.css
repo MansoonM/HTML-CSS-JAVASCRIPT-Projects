@@ -1,0 +1,12 @@
+.dark {
+  background-color: black;
+  color: white;
+}
+.light {
+  background-color: white;
+  color: black;
+}
+button {
+  background-color: gray;
+  font-size: 15px;
+}
