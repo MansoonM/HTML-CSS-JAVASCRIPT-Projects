@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn and SignUp page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1 class="title">Sign Up</h1>
+        <div class="underline"></div>
+        <form>
+          <div class="input-group">
+            <div class="input-field name-field">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="Name" />
+            </div>
+
+            <div class="input-field">
+              <i class="fa-solid fa-at"></i>
+              <input type="text" placeholder="Email Id" />
+            </div>
+
+            <div class="input-field">
+              <i class="fa-solid fa-key"></i>
+              <input type="text" placeholder="Password" />
+            </div>
+            <p>
+              <span class="text">Password Suggestions? </span>
+              <a href="#"> Click here</a>
+            </p>
+          </div>
+          <div class="btn-field">
+            <button type="button" class="active signUpBtn">Sign Up</button>
+            <button class="disable signInBtn" type="button">Sign In</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
